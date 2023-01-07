@@ -1,0 +1,48 @@
+
+/* header-section */
+.text-align{
+    text-align: right;
+    margin-right: 280px;
+    padding-top: 190px;
+}
+.btn-primary{
+    background-color: #F15B22;
+    border-radius: 5px;
+    padding: 6px;
+    color: #FFFFFF;
+    border: none;   
+}
+.banner-section{
+    background-image: url('images/banner/banner2.png');
+    background-size: cover;
+    background-repeat:no-repeat ;
+    width: 1500px;
+    height: 800px;
+    top: 0;
+}
+/* second-part */
+.second-part{
+    display: flex;
+    gap: 80px;
+}
+.text-align2{
+    padding-top: 220px;
+}
+img{
+    margin-left: 200px;
+}
+/* third section */
+.icons-section{
+    display: flex; 
+    gap: 2px;
+}
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+h2{
+    margin-left: 140px;  
+}
+small{
+    margin-left: 160px;
+}
