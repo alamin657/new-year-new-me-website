@@ -97,3 +97,27 @@ small {
 }
 
 /* future plan */
+.bg-color{
+    display: flex;
+    background-color: black;
+}
+.blog-color{
+    color: white;
+    padding: 100px;
+}
+.subscribe{
+    padding: 100px;
+    color: white;
+}
+#email{
+    padding: 10px 70px 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.btn-subscribe{
+            padding:10px ;
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            border: none;
+}
