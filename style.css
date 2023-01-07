@@ -1,8 +1,11 @@
+/* body section */
+*{
+    margin: 0;
+}
+/* header section */
 section {
     margin-bottom: 130px;
 }
-
-/* header-section */
 .text-align {
     text-align: right;
     margin-right: 280px;
@@ -12,9 +15,10 @@ section {
 .btn-primary {
     background-color: #F15B22;
     border-radius: 5px;
-    padding: 6px;
+    padding: 18px;
     color: #FFFFFF;
     border: none;
+    margin-top: 32px;
 }
 
 .banner-section {
@@ -26,77 +30,69 @@ section {
     top: 0;
 }
 
-/* second-part */
-.second-part {
+/* main section */
+/* my previous failure of year */
+.text-description-img {
     display: flex;
     gap: 80px;
 }
 
-.text-align2 {
+.text-description {
     padding-top: 220px;
 }
 
-img {
+.img-person {
     margin-left: 200px;
 }
 
-/* third section */
-.icons-section {
-    display: flex;
-    gap: 2px;
-}
+/* my plans*/
 
-h1 {
+.text-plan{
     text-align: center;
-    padding-bottom: 20px;
+    margin-bottom: 50px;
+    font-size: 36px;
 }
-
-h2 {
-    margin-left: 140px;
+.good-and-bad{
+            display: flex;
+            gap: 160px;
+            padding-left:210px ;
 }
-
-small {
-    margin-left: 160px;
+.image-text{
+    text-align: center;
 }
-
-/* fourth section */
+/* interest section */
 .interest-section {
-    margin-left: 140px;
-    padding-top: 150px;
-    width: 82%;
+    width: 1140px;
+    height: 300px;
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('images/watch.png');
-
     border-radius: 8px;
-
+    margin-left: 100px;
+}
+.awlays-active{
+   font-size: 26px;
+   padding: 20px 30px 10px 30px; 
+   color: #FFFFFF;
+}
+.button-section{
+            padding: 15px 25px ;
+            background-color: #FFFFFF;
+            color: #F15B22;
+            border-radius: 5px;
+            border: none;
 
 }
-
-.text-section {
-    margin-left: 76px;
-    padding-bottom: 50px;
-    color: #FFFFFF;
+.btn-padding{
+    padding: 0px 30px;
+        
 }
-
-.btn-section {
-    color: #F15B22;
-    border-radius: 5px;
-    margin-left: 5px;
-    /* padding-bottom: 20px; */
-    border: none;
-    padding-bottom: 4px;
-}
-
-.happy-new-year {
-    width: 120px;
-    margin-top: 70px;
-}
-
+/* happy new year */
 .strong-section {
     text-align: center;
     margin-top: 30px;
+    font-size: 30px;
 }
 
-/* future plan */
+/* fooder section */
 .bg-color{
     display: flex;
     background-color: black;
@@ -104,6 +100,10 @@ small {
 .blog-color{
     color: white;
     padding: 100px;
+    margin: 10px;
+}
+.media-icon>img{
+    margin-right:10px ;
 }
 .subscribe{
     padding: 100px;
@@ -116,8 +116,9 @@ small {
 }
 .btn-subscribe{
             padding:10px ;
-            background-color: blue;
-            color: white;
+            background-color:#FFFFFF;
+            color: #F15B22;
             border-radius: 5px;
             border: none;
+            font-size: 20px;
 }
